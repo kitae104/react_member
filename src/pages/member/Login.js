@@ -22,7 +22,7 @@ const Login = () => {
     console.log('ID: ' + inputId + ', PW: ' + inputPw);
 
     axios
-      .post('http://localhost:8080/api/login', {
+      .post('http://localhost:18080/api/login', {
         memberEmail: inputId,
         memberPassword: inputPw,
       })
